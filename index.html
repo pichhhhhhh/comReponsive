@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<style>
+  .header{
+    width: 90%;
+    height: 180px;
+    margin: auto;
+  }
+  .header img{
+    width: 100%;
+    height: 100%;
+  }
+  .card{
+    margin: auto;
+  }
+  .footer{
+    background-color: rgb(59, 57, 57);
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .logo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .logo img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+  }
+  .footer .about{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .about p{
+    font-size: 20px;
+    color: #fff;
+  }
+  .footer .contact{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .footer .contact i{
+    font-size: 30px;
+    color: #fff;
+  }
+  .card{
+    overflow: hidden;
+  }
+  .card img{
+        transition: 0.3s;
+    }
+   .card img:hover{
+        transform: scale(1.1);
+        
+    }
+  @media(max-widht:595.98px){
+    .header{
+    width: 85%;
+    height: 100px;
+  }
+  .footer{
+    background-color: rgb(59, 57, 57);
+    width: 100%;
+    height: 800px;
+    gap: 10px;
+  }
+  .footer .logo{
+    width: 20%;
+    height: 100%;
+    margin-left: 5px;
+  }
+  .footer .logo img{
+    height: 80px;
+    width: 80px;
+  }
+  .footer .about{
+    width: 60%;
+    height: 100%;
+  }
+  .footer .about p{
+    font-size: 12px;
+  }
+  .footer .contact{
+    width: 20%;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+  }
+  .footer .contact i{
+    font-size: 20px;
+  }
+
+  }
+</style>
+<body>
+    <div class="container p-3 my-5 border border-3">
+        <div class="row">
+            <div class="col-12">
+                <div class="header">
+                    <img class="rounded" width="100%" height="130px" src="https://tse3.mm.bing.net/th?id=OIP.MZ_nE-6QyW8JqiR-lZp-aAHaCs&pid=Api&P=0&h=220" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="row my-3 m-auto">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" height="200px" src="https://laptopmedia.com/wp-content/uploads/2019/11/1-62-e1588931885978-680x493.jpg" alt="">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" height="200px" src="https://laptopmedia.com/wp-content/uploads/2024/07/nitro-16-an16-42-4zone-backlit-on-wallpaper-logo-black-01-custom-scaled-e1720762645282.jpg" alt="">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://i.pinimg.com/736x/1f/66/48/1f66488ebab0a931874960c75e2692e9.jpg" alt="">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+                  <div class="card" style="width: 18rem;">
+                      <img class="card-img-top"  height="200px" src="https://i.pinimg.com/474x/49/a2/26/49a22694cb26e48076d2b109f4716e29.jpg" alt="">
+                      <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://i.pinimg.com/474x/5a/40/f3/5a40f3407b87a49088e63db909a641ef.jpg" alt="">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://i.pinimg.com/474x/8c/31/1e/8c311e5c7bbab4f07385c57321617bc6.jpg" alt="">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://i.pinimg.com/236x/a2/e7/b9/a2e7b92d9f716f5ba4cf23a272d2d614.jpg" alt="">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://i.pinimg.com/736x/45/1a/85/451a85b756f31e7087ccb56464da121d.jpg" alt="">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" height="232px" src="https://i.pinimg.com/736x/c5/67/0d/c5670d72ddb166e8ab5d5f874a72b9d5.jpg" alt="">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top"  height="230px" src="https://i.pinimg.com/474x/69/70/d7/6970d75d6580e815643e2c48f29c8dca.jpg" alt="">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+                  <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="https://i.pinimg.com/474x/2a/e7/5f/2ae75fb91240bc9163e7e238d6be05fe.jpg" alt="">
+                      <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 my-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://i.pinimg.com/564x/ab/72/e9/ab72e924e17d5303b7baa08f2771205a.jpg" alt="">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+             </div>
+         </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sml-12">
+        <div class="footer">
+          <div class="logo">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.hRlkOdy78Wcf3QHV91Z2AQHaHa&pid=Api&P=0&h=220" alt="">
+          </div>
+          <div class="about"  >
+            <p>Thank you for watching</p>
+          </div>
+          <div class="contact">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
+
